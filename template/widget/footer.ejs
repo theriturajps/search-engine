@@ -1,0 +1,12 @@
+<div class="footer <%if(type=='home'){%> home <%}%>">
+  <a target="_blank" href="https://github.com/theriturajps/Linux-Command/new/main/command">Add command</a> |
+  <a href="<%=relative_path%>hot.html">command list</a>
+  <br />
+  <a href="/" target="_blank">Refresh</a>
+  <br />
+  Please use Ctrl+D or Command+d to bookmark this site
+  <br /> Collected in total
+  <span id="commands_info">
+    <%=describe.command_length?describe.command_length:''%>
+  </span> Linux commands, more than <a href="<%=relative_path%>contributors.html">50+</a> Contributor
+</div>

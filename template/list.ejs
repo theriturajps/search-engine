@@ -1,0 +1,13 @@
+<%- include('partial/header'); %>
+<%- include('widget/search',{type: "list"}); %>
+<div class="search_list">
+    <ul id="search_list_result">
+        <!-- <li>
+            <a href=""><strong>find</strong>- Search for files in the specified directory.</a>
+            <p>The find command is used to find files in the specified directory. Any string preceding the parameter will be treated as the name of the directory to be searched. If you use this command without setting any parameters, the find command will search for subdirectories and files in the current directory. And all found subdirectories and files will be displayed.</p>
+        </li> -->
+    </ul>
+</div>
+
+<%- include('widget/footer',{type: "list"}); %>
+<%- include('partial/footer'); %>
