@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const SitemapGenerator = require('sitemap-generator');
 
 const xmlFile = path.join(process.cwd(), '.deploy/sitemap.xml')
-const generator = SitemapGenerator('https://gitengine.vercel.app', {
+const generator = SitemapGenerator('http://192.168.31.69:1987', {
   maxDepth: 0,
   filepath: xmlFile,
   maxEntriesPerFile: 50000,
