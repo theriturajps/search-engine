@@ -49,8 +49,8 @@ const contributorsPath = path.resolve(process.cwd(), 'CONTRIBUTORS.svg');
       path.resolve(deployDir, 'index.html'),
       {
         p: '/index.html',
-        n: 'Linux command search engine',
-        d: 'The most professional collection of Linux commands, including Linux command manuals, detailed explanations, and learning. It is a Linux command quick reference manual worth collecting.',
+        n: 'GitForge Search Engine',
+        d: 'The most professional collection of free and premium contents, including Theme, Template, PDFs, OS, Operating System, Linux, Windows, Free, Premium, detailed explanations, and learning. It is a GitForge quick reference manual worth search engine.',
         command_length: jsonData.data.length
       }
     );
@@ -61,7 +61,7 @@ const contributorsPath = path.resolve(process.cwd(), 'CONTRIBUTORS.svg');
       {
         p: '/list.html',
         n: 'search',
-        d: 'The most professional Linux command collection and command search engine. It contains Linux command manuals, detailed explanations, and learning. It is a Linux command quick reference manual worth collecting.',
+        d: 'The most professional collection of free and premium contents, including Theme, Template, PDFs, OS, Operating System, Linux, Windows, Free, Premium, detailed explanations, and learning. It is a GitForge quick reference manual worth search engine',
         command_length: jsonData.data.length
       }
     );
@@ -72,7 +72,7 @@ const contributorsPath = path.resolve(process.cwd(), 'CONTRIBUTORS.svg');
       {
         p: '/hot.html',
         n: 'search',
-        d: 'The most professional Linux command collection and command search engine. It contains Linux command manuals, detailed explanations, and learning. It is a Linux command quick reference manual worth collecting.',
+        d: 'The most professional collection of free and premium contents, including Theme, Template, PDFs, OS, Operating System, Linux, Windows, Free, Premium, detailed explanations, and learning. It is a GitForge quick reference manual worth search engine',
         arr: jsonData.data,
         command_length: jsonData.data.length
       }
@@ -89,7 +89,7 @@ const contributorsPath = path.resolve(process.cwd(), 'CONTRIBUTORS.svg');
       {
         p: '/contributors.html',
         n: 'search',
-        d: 'The most professional Linux command collection and command search engine. It contains Linux command manuals, detailed explanations, and learning. It is a Linux command quick reference manual worth collecting.',
+        d: 'The most professional collection of free and premium contents, including Theme, Template, PDFs, OS, Operating System, Linux, Windows, Free, Premium, detailed explanations, and learning. It is a GitForge quick reference manual worth search engine',
         arr: jsonData.data,
         command_length: jsonData.data.length,
         contributors: svgStr,

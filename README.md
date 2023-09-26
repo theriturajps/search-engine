@@ -2,7 +2,7 @@
   <a href="https://jaywcjlove.github.io/linux-command">
     <img src="./template/img/banner.svg?sanitize=true">
   </a>
-  <h1>Linux Command</h1>
+  <h1>GitForge Search</h1>
 </p>
 
 

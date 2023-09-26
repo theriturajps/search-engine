@@ -1,7 +1,7 @@
 {
   "name": "linux-command",
   "version": "1.16.0",
-  "description": "Linux Command",
+  "description": "GitForge Search",
   "homepage": "https://theriturajps.github.io/linux-command/",
   "main": "dist/data.json",
   "scripts": {
